@@ -1,0 +1,137 @@
+[
+  {
+    "room_id": 1,
+    "hotel_id": 1,
+    "room_type": "Standard",
+    "bed_type": "Twin",
+    "capacity_adults": 2,
+    "capacity_children": 1,
+    "base_price": 120
+  },
+  {
+    "room_id": 2,
+    "hotel_id": 1,
+    "room_type": "Standard",
+    "bed_type": "Queen",
+    "capacity_adults": 2,
+    "capacity_children": 1,
+    "base_price": 130
+  },
+  {
+    "room_id": 3,
+    "hotel_id": 1,
+    "room_type": "Deluxe",
+    "bed_type": "King",
+    "capacity_adults": 2,
+    "capacity_children": 1,
+    "base_price": 180
+  },
+  {
+    "room_id": 4,
+    "hotel_id": 1,
+    "room_type": "Family",
+    "bed_type": "Queen",
+    "capacity_adults": 3,
+    "capacity_children": 2,
+    "base_price": 220
+  },
+  {
+    "room_id": 5,
+    "hotel_id": 1,
+    "room_type": "Suite",
+    "bed_type": "King",
+    "capacity_adults": 3,
+    "capacity_children": 1,
+    "base_price": 300
+  },
+  {
+    "room_id": 6,
+    "hotel_id": 2,
+    "room_type": "Standard",
+    "bed_type": "Twin",
+    "capacity_adults": 2,
+    "capacity_children": 1,
+    "base_price": 120
+  },
+  {
+    "room_id": 7,
+    "hotel_id": 2,
+    "room_type": "Standard",
+    "bed_type": "Queen",
+    "capacity_adults": 2,
+    "capacity_children": 1,
+    "base_price": 130
+  },
+  {
+    "room_id": 8,
+    "hotel_id": 2,
+    "room_type": "Deluxe",
+    "bed_type": "King",
+    "capacity_adults": 2,
+    "capacity_children": 1,
+    "base_price": 180
+  },
+  {
+    "room_id": 9,
+    "hotel_id": 2,
+    "room_type": "Family",
+    "bed_type": "Queen",
+    "capacity_adults": 3,
+    "capacity_children": 2,
+    "base_price": 220
+  },
+  {
+    "room_id": 10,
+    "hotel_id": 2,
+    "room_type": "Suite",
+    "bed_type": "King",
+    "capacity_adults": 3,
+    "capacity_children": 1,
+    "base_price": 300
+  },
+  {
+    "room_id": 11,
+    "hotel_id": 3,
+    "room_type": "Standard",
+    "bed_type": "Twin",
+    "capacity_adults": 2,
+    "capacity_children": 1,
+    "base_price": 120
+  },
+  {
+    "room_id": 12,
+    "hotel_id": 3,
+    "room_type": "Standard",
+    "bed_type": "Queen",
+    "capacity_adults": 2,
+    "capacity_children": 1,
+    "base_price": 130
+  },
+  {
+    "room_id": 13,
+    "hotel_id": 3,
+    "room_type": "Deluxe",
+    "bed_type": "King",
+    "capacity_adults": 2,
+    "capacity_children": 1,
+    "base_price": 180
+  },
+  {
+    "room_id": 14,
+    "hotel_id": 3,
+    "room_type": "Family",
+    "bed_type": "Queen",
+    "capacity_adults": 3,
+    "capacity_children": 2,
+    "base_price": 220
+  },
+  {
+    "room_id": 15,
+    "hotel_id": 3,
+    "room_type": "Suite",
+    "bed_type": "King",
+    "capacity_adults": 3,
+    "capacity_children": 1,
+    "base_price": 300
+  }
+]
