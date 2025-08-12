@@ -1,0 +1,115 @@
+{
+  "info": {
+    "name": "NLPearl Mock Availability API",
+    "_postman_id": "b3a2f6d8-1234-4b1a-8f5b-42a3e8b9abcd",
+    "description": "Local mock API for NLPearl voice assistant availability checks.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "List Hotels",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/hotels",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "hotels"
+          ]
+        }
+      }
+    },
+    {
+      "name": "List Rooms (hotel_id=1)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/rooms?hotel_id=1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "rooms"
+          ],
+          "query": [
+            {
+              "key": "hotel_id",
+              "value": "1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Check Availability (2 adults)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/availability?check_in_date=2025-08-20&check_out_date=2025-08-24&number_of_adults=2&hotel_id=1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "availability"
+          ],
+          "query": [
+            {
+              "key": "check_in_date",
+              "value": "2025-08-20"
+            },
+            {
+              "key": "check_out_date",
+              "value": "2025-08-24"
+            },
+            {
+              "key": "number_of_adults",
+              "value": "2"
+            },
+            {
+              "key": "hotel_id",
+              "value": "1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Booking",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"room_id\": 7, \"check_in_date\": \"2025-08-27\", \"check_out_date\": \"2025-08-30\", \"guest_name\": \"Sertan Tufan\"}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/bookings",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "bookings"
+          ]
+        }
+      }
+    }
+  ]
+}
