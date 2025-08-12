@@ -1,0 +1,92 @@
+[
+  {
+    "booking_id": 1,
+    "room_id": 7,
+    "guest_name": "Elif Kaya",
+    "check_in_date": "2025-10-16",
+    "check_out_date": "2025-10-22",
+    "total_price": 806.0,
+    "status": "checked-in"
+  },
+  {
+    "booking_id": 2,
+    "room_id": 13,
+    "guest_name": "Deniz Smith",
+    "check_in_date": "2025-10-29",
+    "check_out_date": "2025-11-01",
+    "total_price": 540.0,
+    "status": "confirmed"
+  },
+  {
+    "booking_id": 3,
+    "room_id": 11,
+    "guest_name": "Hans Demir",
+    "check_in_date": "2025-10-13",
+    "check_out_date": "2025-10-17",
+    "total_price": 480.0,
+    "status": "confirmed"
+  },
+  {
+    "booking_id": 4,
+    "room_id": 5,
+    "guest_name": "John Yıldırım",
+    "check_in_date": "2025-08-23",
+    "check_out_date": "2025-08-26",
+    "total_price": 1152.0,
+    "status": "checked-in"
+  },
+  {
+    "booking_id": 5,
+    "room_id": 14,
+    "guest_name": "Emre Şahin",
+    "check_in_date": "2025-10-07",
+    "check_out_date": "2025-10-09",
+    "total_price": 440.0,
+    "status": "cancelled"
+  },
+  {
+    "booking_id": 6,
+    "room_id": 15,
+    "guest_name": "Elif Yılmaz",
+    "check_in_date": "2025-09-26",
+    "check_out_date": "2025-09-28",
+    "total_price": 630.0,
+    "status": "cancelled"
+  },
+  {
+    "booking_id": 7,
+    "room_id": 9,
+    "guest_name": "Elif Demir",
+    "check_in_date": "2025-09-29",
+    "check_out_date": "2025-10-02",
+    "total_price": 660.0,
+    "status": "checked-out"
+  },
+  {
+    "booking_id": 8,
+    "room_id": 4,
+    "guest_name": "Emre Demir",
+    "check_in_date": "2025-08-16",
+    "check_out_date": "2025-08-20",
+    "total_price": 1108.8,
+    "status": "checked-out"
+  },
+  {
+    "booking_id": 9,
+    "room_id": 13,
+    "guest_name": "Ahmet Smith",
+    "check_in_date": "2025-08-31",
+    "check_out_date": "2025-09-03",
+    "total_price": 597.6,
+    "status": "cancelled"
+  },
+  {
+    "booking_id": 10,
+    "room_id": 12,
+    "guest_name": "Efe Novak",
+    "check_in_date": "2025-08-30",
+    "check_out_date": "2025-09-04",
+    "total_price": 733.2,
+    "status": "confirmed"
+  }
+]
